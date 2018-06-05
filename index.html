@@ -1,0 +1,96 @@
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <title>FCC Calculator</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="calc-style.css">
+  <link href="https://fonts.googleapis.com/css?family=Orbitron|Roboto" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="calc" class="container">
+    <div class="row">
+      <h1 id="title">E-CALCULATOR</h1>
+    </div>
+    <div class="row">
+      <p id="outputScreen">0</p>
+    </div>
+
+    <div class="row calcRow">
+      <div class="calcColumn col-3">
+        <button type="button" id="acButton" class="calcButton btn btn-primary">AC</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="ceButton" class="calcButton btn btn-primary">CE</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="divideButton" class="calcButton operationButton btn btn-primary">/</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="timesButton" class="calcButton operationButton btn btn-primary">*</button>
+      </div>
+    </div>
+
+    <div class="row calcRow">
+      <div class="calcColumn col-3">
+        <button type="button" id="sevenButton" class="calcButton numberButton btn btn-primary">7</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="eightButton" class="calcButton numberButton btn btn-primary">8</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="nineButton" class="calcButton numberButton btn btn-primary">9</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="subtractButton" class="calcButton operationButton btn btn-primary">-</button>
+      </div>
+    </div>
+
+    <div class="row calcRow">
+      <div class="calcColumn col-3">
+        <button type="button" id="fourButton" class="calcButton numberButton btn btn-primary">4</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="fiveButton" class="calcButton numberButton btn btn-primary">5</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="sixButton" class="calcButton numberButton btn btn-primary">6</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" op="add" id="addButton" class="calcButton operationButton btn btn-primary">+</button>
+      </div>
+    </div>
+
+    <div class="row calcRow">
+      <div class="calcColumn col-3">
+        <button type="button" id="oneButton" class="calcButton numberButton btn btn-primary">1</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="twoButton" class="calcButton numberButton btn btn-primary">2</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="threeButton" class="calcButton numberButton btn btn-primary">3</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="equalsButton" class="calcButton btn btn-primary">=</button>
+      </div>
+    </div>
+
+    <div class="row calcRow">
+      <div class="calcColumn col-6">
+        <button type="button" id="zeroButton" class="calcButton numberButton btn btn-primary">0</button>
+      </div>
+      <div class="calcColumn col-3">
+        <button type="button" id="decimalButton" class="calcButton numberButton btn btn-primary">.</button>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="calc-script.js"></script>
+</body>
+
+</html>
